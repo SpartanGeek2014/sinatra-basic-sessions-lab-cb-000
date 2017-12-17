@@ -10,4 +10,7 @@ require_relative 'config/environment'
     erb :index
   end
 
+  post '/index' do
+    erb :checkout
+  end
 end
